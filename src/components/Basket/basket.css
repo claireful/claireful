@@ -1,0 +1,32 @@
+.basket-return-button {
+    padding: 25px;
+}
+
+.basket-return-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+
+.basket-not-empty {
+    display: flex;
+    justify-content: center;
+    margin: 45px;
+}
+
+.total-div {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 70px;
+}
+
+.price-texts {
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+
+.validate-button {
+    margin: 30px 0px ;
+}

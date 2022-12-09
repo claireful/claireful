@@ -1,0 +1,63 @@
+.list {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.cookie-label {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.cookie-name {
+    font-size: 18px;
+    width: 70%;
+}
+
+.item:hover {
+    text-decoration: underline;
+}
+
+.cookie-price {
+    font-size: 16px;
+}
+
+.pin {
+    width: 15px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+
+.pin-container {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+    .item {
+        width: 150px;
+    }
+
+    .cookie-name {
+        font-size: 14px;
+    }
+
+    .cookie-price {
+        font-size: 13px;
+    }
+
+    .pin {
+        width: 12px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .item {
+        width: 200px;
+    }
+}

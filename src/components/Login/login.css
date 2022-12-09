@@ -1,0 +1,28 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-title {
+    font-size: 33px;
+    padding-bottom: 35px;
+}
+
+.register-text {
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 700px) {
+    .login-title {
+        font-size: 28px;
+    }
+}

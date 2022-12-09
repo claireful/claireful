@@ -1,0 +1,34 @@
+.cookie-detail-content {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.cookie-detail-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.cookie-detail-image {
+    width: 450px;
+}
+
+.cookie-detail-name {
+    font-size: 25px;
+    margin: 20px 0px;
+}
+
+.cookie-detail-price {
+    font-size: 17px;
+}
+
+.cookie-detail-button {
+    width: 200px;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}

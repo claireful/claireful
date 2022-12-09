@@ -1,0 +1,125 @@
+* {
+    font-family: courier;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@media screen and (max-width: 820px) {
+    .header-large {
+        display: None;
+    }
+
+    .header-mini {
+        z-index: 1000;
+        position: sticky;
+        top: 0;
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: white;
+        justify-content: space-between;
+    }
+
+    .logo {
+        height: 70px;
+    }
+
+    .header-icon,
+    .menu-icon {
+        font-size: 35px;
+        stroke-width: 40px;
+        stroke: white;
+    }
+
+    .basket {
+        display: None;
+    }
+
+    .close {
+        color: white;
+        cursor: pointer;
+        padding: 30px 0px 10px 50px;
+    }
+
+    .sider {
+        max-width: 100%;
+        min-width: 100%;
+        bottom: 0px;
+        position: fixed !important;
+        top: 0px;
+        z-index: 100000;
+        background-color: #6D1A64 !important;
+        font-size: 20px;
+    }
+
+    .menu {
+        background-color: #6D1A64;
+        color: white;
+        font-size: 18px;
+    }
+
+    .content {
+        background-color: #fff4ff;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .sider {
+        display: None;
+    }
+
+    .header-mini {
+        display: None;
+    }
+
+    .header-large {
+        background: #fff;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        height: 200px;
+    }
+
+    .header-icon {
+        font-size: 35px;
+        stroke-width: 40px;
+        stroke: white;
+    }
+
+    .icons {
+        gap: 10px;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        font-size: 11px;
+    }
+
+    .menu {
+        font-size: 20px;
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: 15px;
+        width: 100%;
+        justify-content: center;
+        text-transform: uppercase;
+    }
+
+    .container {
+        padding: 0px calc((100% - 980px) * 0.5) 0px calc((100% - 980px) * 0.5);
+        padding-top: 0px;
+    }
+
+    .content {
+        padding: 30px;
+        background-color: #fff4ff;
+    }
+}

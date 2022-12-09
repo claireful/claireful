@@ -1,0 +1,8 @@
+.first-last-name {
+    display: flex;
+    gap: 25px;
+}
+
+.email-and-form {
+    padding: 20px;
+}
